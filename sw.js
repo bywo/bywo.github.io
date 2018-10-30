@@ -26,30 +26,30 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-ff563d535c2dc339e4b0.js"
+    "url": "webpack-runtime-c5376997eb3d5708081b.js"
   },
   {
-    "url": "app-9a5ea009d02261693a7e.js"
+    "url": "app-c9a5ac9179f147cbc23a.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-0a722e7e178d3c22dc4e.js"
   },
   {
     "url": "index.html",
-    "revision": "52ac6a3ceac42dbfbf83060fa45efabf"
+    "revision": "44ef0e54d699a09c0b1f2d9d5e103f98"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "962070f4f928c58d29cf267a5a350baf"
+    "revision": "90025eca55471513de3e24cd1be400e2"
   },
   {
-    "url": "0.ca375bfe05bbd39b3516.css"
+    "url": "0.bddaef654c66ded1434d.css"
   },
   {
-    "url": "0-46db1b8e39f0919b696a.js"
+    "url": "0-c5112789ac02032b00b5.js"
   },
   {
-    "url": "component---src-pages-index-js-52bad4379f15d85bf5b0.js"
+    "url": "component---src-pages-index-js-4f85613fc4e693bb2a80.js"
   },
   {
     "url": "static/d/377/path---index-6a9-QWpcPq3nxaOzDpjc41rcj59DxE.json",
@@ -74,7 +74,7 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/gatsby-starter-blog/offline-plugin-app-shell-fallback/index.html", {
+workbox.routing.registerNavigationRoute("/offline-plugin-app-shell-fallback/index.html", {
   whitelist: [/^[^?]*([^.?]{5}|\.html)(\?.*)?$/],
   blacklist: [/\?(.+&)?no-cache=1$/],
 });
